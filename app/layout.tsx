@@ -4,7 +4,7 @@ import "./data-tables-css.css";
 import "./satoshi.css";
 import { useState, useEffect } from "react";
 import Loader from "@/components/common/Loader";
-
+import { Watermark } from 'watermark-js-plus';
 import Sidebar from "@/components/Sidebar";
 import Header from "@/components/Header";
 
@@ -16,7 +16,38 @@ export default function RootLayout({
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
   const [loading, setLoading] = useState<boolean>(true);
-
+  if(typeof window !== "undefined"){
+    const watermark = new Watermark({
+      content: 'www.cyberevangelists.com',
+      width: 200,
+      height: 200,
+      rotate: 22,
+      layout: 'grid',
+      gridLayoutOptions: {
+        rows: 2,
+        cols: 2,
+        gap: [20, 20],
+        matrix: [[1, 0], [0, 1]]
+      },
+      advancedStyle: {
+        type: 'linear',
+        colorStops: [
+          {
+            offset: 0,
+            color: 'grey'
+          },
+          {
+            offset: 1,
+            color: 'grey'
+          }
+        ]
+      },
+      onSuccess: () => {
+        // success callback
+      }
+    })
+    watermark.create();
+   }
   useEffect(() => {
     setTimeout(() => setLoading(false), 1000);
   }, []);
