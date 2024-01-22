@@ -15,9 +15,6 @@
     <img src="./public/images/8.png" alt="Sample Image 1">
     <img src="./public/images/7.png" alt="Sample Image 2">
     <img src="./public/images/9.png" alt="Sample Image 2">
-    <!-- Add more image references as needed -->
-    ![version](https://img.shields.io/badge/version-1.0.0-blue.svg)
-    ![license](https://img.shields.io/badge/license-MIT-blue.svg)
 </div>
 
 <h3>Free Next.js Dashboard Template</h3>
