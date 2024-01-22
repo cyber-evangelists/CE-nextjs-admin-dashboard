@@ -11,9 +11,13 @@
     </a>
 </h1>
 <div align="center">
-
-![version](https://img.shields.io/badge/version-1.0.0-blue.svg)
-![license](https://img.shields.io/badge/license-MIT-blue.svg)
+    <img src="./public/images/6.png" alt="Sample Image 1">
+    <img src="./public/images/8.png" alt="Sample Image 1">
+    <img src="./public/images/7.png" alt="Sample Image 2">
+    <img src="./public/images/9.png" alt="Sample Image 2">
+    <!-- Add more image references as needed -->
+    ![version](https://img.shields.io/badge/version-1.0.0-blue.svg)
+    ![license](https://img.shields.io/badge/license-MIT-blue.svg)
 </div>
 
 <h3>Free Next.js Dashboard Template</h3>
@@ -21,14 +25,14 @@
     cyberevangelists Free Next.js Dashboard is built using the latest industry standards and features a clean and premium design style, making use of colors and accents to improve the user experience for all included flows and pages.
 </p>
 <p>
-It is powered by Next.js, Javascript and React and contains multiple components customized</p>
-<p>
-We keep all dependencies updated to their latest stable versions. Each time we release an updated version you will be notified via the email you used to initially download the template.
+    It is powered by Next.js, Javascript and React and contains multiple components customized
 </p>
 <p>
-To discover all the features that this free React admin template has to offer, we suggest visiting the live preview we’ve set up.
+    We keep all dependencies updated to their latest stable versions. Each time we release an updated version you will be notified via the email you used to initially download the template.
 </p>
-
+<p>
+    To discover all the features that this free React admin template has to offer, we suggest visiting the live preview we’ve set up.
+</p>
 
 <h2>
     Quick Start
